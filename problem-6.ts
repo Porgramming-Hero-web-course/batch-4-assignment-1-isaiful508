@@ -18,8 +18,6 @@
 
     const result = updateProfile(myProfile, { age: 26 });
 
-    // console.log({ result });
-
 
     //
 }
