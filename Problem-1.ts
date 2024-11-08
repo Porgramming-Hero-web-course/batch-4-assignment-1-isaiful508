@@ -1,14 +1,23 @@
 {
-//
-const x : number = 10;
-const y : number = 4;
+    //
+    const sumArray = (numbers: number[]): number => {
+        
+        let sum = 0;
 
-const sum : number = x + y;
-console.log(sum);
+        for (let num of numbers) {
+            sum += num;
+        }
+
+        return sum;
+    }
+
+    const result = sumArray([1, 2, 3, 4, 5]);
+
+    // console.log({result});
 
 
 
 
 
-//
+    //
 }
