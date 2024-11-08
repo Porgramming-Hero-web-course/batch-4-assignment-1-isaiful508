@@ -10,7 +10,7 @@
 
     const result = getProperty(person, "name");
 
-    console.log(result)
+    // console.log(result)
 
 
 
